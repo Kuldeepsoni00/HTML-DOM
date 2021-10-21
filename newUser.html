@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="newUser.css">
+          <title>Document</title>
+</head>
+
+<body>
+          <div id="alluser">
+          
+                    <div class="containerco">
+                              <form id="user-form" onsubmit="event.preventDefault();">
+                                        <input id="text" placeholder="Enter Username">
+                                        <input id="email" placeholder="Enter Email">
+                                        <input id="tel" placeholder="Enter Phone Number">
+                                        <input id="password" type="password" placeholder="Enter Password">
+                                        <button class="btn btn-green" onclick="adm(event)">Add More</button>
+                                        <button class="btn btn-red" onclick="removeaa(event)">Remove</button>
+                                        <div class="re-fi">
+                                                  <div class="wi">Required</div>
+                                                  <div class="wi">Required</div>
+                                                  <div class="wi">Required</div>
+                                                  <div class="wi">Required</div>
+                                        </div>
+                                        
+                              </form>
+
+                    </div>
+        
+          <div id="user">
+
+                    <div class="container">
+                              <form id="user-form" onsubmit="event.preventDefault();">
+                                        <input id="text" placeholder="Enter Username">
+                                        <input id="email" placeholder="Enter Email">
+                                        <input id="tel" placeholder="Enter Phone Number">
+                                        <input id="password" type="password" placeholder="Enter Password">
+                                        <button class="btn btn-green more" onclick="adm(event)">Add More</button>
+                                        <br>
+                                        <div class="re-fi">
+                                        <div class="wi">Required</div>
+                                        <div class="wi">Required</div>
+                                        <div class="wi">Required</div>
+                                        <div class="wi">Required</div>
+                              </div>
+                              </form>
+
+                    </div>
+
+          </div>
+          <div class="container">
+                    <button class="btn btn-blue" onclick="checkValiData()">Submit</button>
+          </div>
+</div>
+          <div class="table">
+                    <table>
+                              <tr>
+                                        <th>UserName</th>
+                                        <th>Email</th>
+                                        <th>Number</th>
+                                        <th>Password</th>
+                              </tr>
+                             
+                              
+                              
+                    </table>
+          </div>
+          <script src="newUser.js"></script>
+         
+</body>
+
+</html>
